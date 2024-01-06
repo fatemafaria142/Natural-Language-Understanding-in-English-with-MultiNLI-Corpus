@@ -1,4 +1,4 @@
-# Contextual Reasoning over Long Texts for Natural Language Inference
+# Contextual Reasoning over Long English Texts for Natural Language Inference
 
 ## Overview
 This repository contains code for Natural Language Inference (NLI) leveraging DistilBERT and mBERT models on the ConTRoL dataset. ConTRoL is a novel passage-level NLI dataset specifically designed to test complex contextual reasoning, including logical reasoning, over long texts. It comprises 8,325 "context-hypothesis" pairs meticulously crafted from a competitive selection and recruitment test for police recruitment, exhibiting expert-level quality and challenging reasoning types.
