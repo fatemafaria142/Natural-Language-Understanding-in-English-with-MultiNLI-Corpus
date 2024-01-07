@@ -1,7 +1,7 @@
 # A Comprehensive Study in Natural Language Inference with MultiNLI Corpus
 
 ## Overview
-This repository contains code for Natural Language Inference (NLI) leveraging DistilBERT and mBERT models on the ConTRoL dataset. ConTRoL is a novel passage-level NLI dataset specifically designed to test complex contextual reasoning, including logical reasoning, over long texts. It comprises 8,325 "context-hypothesis" pairs meticulously crafted from a competitive selection and recruitment test for police recruitment, exhibiting expert-level quality and challenging reasoning types.
+This repository contains code for Natural Language Inference (NLI) leveraging DistilBERT and mBERT models on the MultiNLI dataset. 
 
 ## Dataset
 - **MultiNLI Dataset**: The Multi-Genre Natural Language Inference (MultiNLI) (available [here](https://huggingface.co/datasets/multi_nli?row=1)) comprises 433k sentence pairs annotated with textual entailment information. The corpus is modeled on the SNLI corpus, but differs in that covers a range of genres of spoken and written text, and supports a distinctive cross-genre generalization evaluation. 
