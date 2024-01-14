@@ -1,17 +1,30 @@
 # A Comprehensive Study in Natural Language Inference with MultiNLI Corpus
 
 ## Overview
-This repository contains code for Natural Language Inference (NLI) leveraging DistilBERT and mBERT models on the MultiNLI dataset. 
+
+Welcome to the repository dedicated to Natural Language Inference (NLI), featuring code implementations utilizing DistilBERT, RoBERTa, mBERT, Mistral-7B-v0.1, and TinyLlama-1.1B-Chat-v1.0 on the MultiNLI dataset.
 
 ## Dataset
-- **MultiNLI Dataset**: The Multi-Genre Natural Language Inference (MultiNLI) (available [here](https://huggingface.co/datasets/multi_nli?row=1)) comprises 433k sentence pairs annotated with textual entailment information. The corpus is modeled on the SNLI corpus, but differs in that covers a range of genres of spoken and written text, and supports a distinctive cross-genre generalization evaluation. 
+
+### MultiNLI Dataset
+The [MultiNLI Dataset](https://huggingface.co/datasets/multi_nli?row=1) is a comprehensive collection of 433k sentence pairs annotated with textual entailment information. Modeled on the SNLI corpus, MultiNLI covers a range of genres in spoken and written text, offering a distinctive cross-genre generalization evaluation for Natural Language Inference tasks.
 
 ## Models
-- **DistilBERT,RoBERTa and mBERT**: Utilizing these transformer-based models provided by Hugging Face Transformers library,I explore their effectiveness in handling passage-level NLI tasks on the MultiNLI dataset. 
 
-## Usage
-To replicate this experiments or use the code:
-1. Clone this repository.
-2. Install the necessary dependencies specified in `requirements.txt`.
-3. Utilize the provided scripts and notebooks to train, fine-tune, or evaluate DistilBERT and mBERT models on the ConTRoL dataset.
+### Pretrained BERTs
+Leveraging transformer-based models from Hugging Face Transformers library:
+- **DistilBERT**
+  - Model Link: [DistilBERT](https://huggingface.co/docs/transformers/model_doc/distilbert)
+- **RoBERTa**
+  - Model Link: [RoBERTa](https://huggingface.co/docs/transformers/model_doc/roberta)
+- **mBERT**
+  - Model Link: [mBERT](https://huggingface.co/bert-base-multilingual-cased)
 
+### Large Language Models (LLMs)
+For Natural Language Inference on the MultiNLI dataset, two LLMs have been employed:
+- **Mistral-7B-v0.1**
+  - Model Link: [Mistral-7B-v0.1](https://huggingface.co/mistralai/Mistral-7B-v0.1)
+- **TinyLlama-1.1B-Chat-v1.0**
+  - Model Link: [TinyLlama-1.1B-Chat-v1.0](https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0)
+
+Feel free to explore the code implementations and experiment with these models for a comprehensive study in Natural Language Inference using the MultiNLI corpus.
